@@ -1,9 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    
     font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
+
 }
 
 .nav {
@@ -40,7 +39,6 @@
 
 .nav__menu-icon{
     align-self: center;
-    
     /* border: 2px solid yellowgreen; */
     font-size: 21px;
     color: white;
@@ -48,7 +46,7 @@
 }
 
                             /* SECTION ONE */
-.section-one{
+.section-one-container{
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -58,6 +56,12 @@
     background-size: cover;
     color: white;
     /* border: 1px solid green; */
+}
+.section-one-container__part-one-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
 }
 
 .section-one__title{
@@ -91,9 +95,66 @@
 }
 
 .section-one__phone-logo{
-    width: 92%;
-    position: absolute;
-    top: 71.5%;
+    display: flex;
+    position: relative;
+    width: 100%;
+
+}
+.section-one-container-img{
+    position: relative;
+    width: 93%;
+    top: 61%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+                    /* SECTIO TWO */
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 21.5%;
+    /* border: 2px solid red; */
+    color: black;
+}
+
+.section-two__title{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+    /* border: 1px solid blue; */
+}
+.section-two__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.section-two__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 85px;
+    border-radius: 20px;
+    margin-top: 15px;
+    background-color: #4BA9FD;
+    border: 2px solid blue;
+}
+.section-two__picture-svg{
+    /* font-size: 50px; */
+    width: 50%;
+    height: 50%;  
+    color: white;  
+}
+.section-two__describe{
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 20px;
+    /* border: 2px solid green; */
 }
