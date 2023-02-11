@@ -3,8 +3,6 @@
 .nav__img-logo{}
 .nav__menu{}
 .nav__menu-icon{}
-
-
 @media(min-width:900px){
     .nav{
         width: 100%;
@@ -24,5 +22,12 @@
     .section-one__start {
         flex-basis: 5%;
         width: 20%;
+    }
+} */
+
+/* @media(min-width:900px){
+    .tablet {
+        flex-direction: row;
+        width: 100vh;
     }
 } */

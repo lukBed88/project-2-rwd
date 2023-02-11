@@ -5,6 +5,11 @@
 
 }
 
+/* .wrapper {
+    display: flex;
+    border: 1px solid black;
+} */
+
 .nav {
     display: flex;
     align-self: center;
@@ -94,6 +99,10 @@
     letter-spacing: 1.5px;
 }
 
+.section-one-container__part-two-picture{
+    /* border: 2px solid brown; */
+}
+
 .section-one__phone-logo{
     display: flex;
     position: relative;
@@ -142,8 +151,21 @@
     border-radius: 20px;
     margin-top: 15px;
     background-color: #4BA9FD;
-    border: 2px solid blue;
+    border: 2px solid transparent;
+    /* background-image: linear-gradient(222deg, rgba(75, 169, 253, 1) 34%, rgba(41, 78, 86, 1) 100%, rgba(89, 131, 252, 1) 99%); */
+    /* background-color: rgba(89, 131, 252, 1);
+    background-image: linear-gradient(90deg, rgba(89, 131, 252, 1) 0%, rgba(41, 53, 86, 1) 100%); */
 }
+.section-two__icon--color-blue{
+    background-image: linear-gradient(222deg, rgba(75, 169, 253, 1) 34%, rgba(41, 78, 86, 1) 100%, rgba(89, 131, 252, 1) 99%);
+}
+.section-two__icon--color-orange{
+    background-color: rgb(255, 165, 0);
+}
+.section-two__icon--color-green{
+    background-color: forestgreen
+}
+
 .section-two__picture-svg{
     /* font-size: 50px; */
     width: 50%;
