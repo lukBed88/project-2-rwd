@@ -45,6 +45,11 @@
     .nav__menu-icon{
         font-size: 28px;
     }
+    .section-one-container{
+        background-position: top;
+        background-size: 100% 78%;
+        background-repeat: no-repeat; 
+    }
     .section-one-container__part-one-info{
         flex-basis: 50%;
         justify-content: center;
