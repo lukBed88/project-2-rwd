@@ -60,8 +60,8 @@
     width: 100vw;
     height: 93.5vh;
     background-image: url(images/banner/banner.png);
-    background-position: center;
-    background-size: cover;
+    background-size: 100% 78%;
+    background-repeat: no-repeat;
     color: white;
     /* border: 1px solid red; */
 }
