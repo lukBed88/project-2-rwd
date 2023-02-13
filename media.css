@@ -5,21 +5,30 @@
     }
     .nav {
         height: 7.5vh;
+        background-color: #2C2C2C;
+    }
+    .nav__container-ul{
+        opacity: .85;
+        z-index: 2;
+        /* height: 14vh; */
+        /* border: 2px solid yellow; */
     }
     .nav__logo {
         flex-basis: 13%;
         margin-left: 15px;
         /* border: 2px solid yellow; */
     }
-    .nav__menu{
-        margin-left: 78%;
-        /* border: 2px solid yellow; */
-    }
     .nav__menu-icon{
         font-size: 28px;
     }
+    .nav__li:hover{
+        color: yellow;
+        transition: .2s;
+    }
+
     .section-one-container{
         background-position: top;
+        height: 85vh;
         background-size: 100% 78%;
         background-repeat: no-repeat; 
         /* border: 2px solid black; */
@@ -32,6 +41,7 @@
     }
     .section-one-container__part-two-picture{
         flex-basis: 45%;
+        /* z-index: 0; */
     }
     .section-one__title{  
         width: 75%;
@@ -52,18 +62,20 @@
         font-size: 16px;
         margin-left: 100px;      
     }
-    .section-one-container__part-two-picture{
-        /* border: 2px solid red; */
-    }
     .section-one-container-img{
         width: 80%;
         left: 43%;
         top: 53%;
+        /* border: 2px solid red; */
+        z-index: 0;
     }
     .section-two{
         flex-direction: row;
         justify-content: center;
         margin-top: 5%;
+        /* border: 2px solid red; */
+    }
+    .section-two__title{
         /* border: 2px solid red; */
     }
     .section-two__container{

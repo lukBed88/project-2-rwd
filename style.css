@@ -6,16 +6,64 @@
 }
 
 .wrapper {
+    /* overflow: hidden; */
+}
+                                /* HIDE */
+
+
+.nav__button-download{
+    /* visibility: hidden; */
+}
+
+.nav__container-ul{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding: 14px 0;
+    justify-content: center;
+    background-color: #2C2C2C;
+    top: 6%;
+    /* border: 2px solid yellowgreen; */
+    visibility: hidden;
+}
+
+    .nav__menu-icon:active{
+        transform: rotate(-90deg);
+        transition: .4s;
+    }
+    /* dziala selektor brata  !!!!!!!!!!!!!!!!*/
+    .nav__menu-icon:active ~ .nav__container-ul{
+    visibility: visible;
+
+}
+
+.nav__button-download{
+    position: absolute;
+    top: -10%;
+    visibility: hidden;
+}
+
+.nav__li {
+    margin-bottom: 8px 0;
+    list-style: none;
+    color: white;
+}
+.wrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* width: 100%;
     /* border: 1px solid black; */
 }
 
 .nav {
     display: flex;
     align-self: center;
+    /* rozmieszczenie ikon w nav */
+    justify-content: space-between;
     height: 6vh;
     width: 100%;
     background-color: #2C2C2C;
@@ -39,19 +87,26 @@
 }
 
 .nav__menu {
-    display: flex;
-    margin-left: 60%;
+    /* display: flex; */
+    /* margin-left: 60%; */
     /* border: 2px solid yellow; */
 }
 
-
 .nav__menu-icon{
+    display: flex;
+    margin-right: 25px;
     align-self: center;
     /* border: 2px solid yellowgreen; */
     font-size: 21px;
     color: white;
 
 }
+
+                    /* ACTIVEEEEEE */
+/* .nav__menu-icon:hover ~ .nav__container-ul{
+
+    visibility: visible;
+} */
 
                             /* SECTION ONE */
 .section-one-container {
@@ -104,7 +159,13 @@
     color: white;
     font-weight: 600;
     letter-spacing: 1.5px;
+    cursor:pointer
 }
+
+/* .section-one__start:active{
+    background-color: rgb(168, 233, 37);
+    transition: .3s;
+} */
 
 .section-one-container__part-two-picture{
     /* border: 2px solid brown; */
@@ -133,7 +194,6 @@
 }
 
 .section-two__title{
-    
     width: 95%;
     margin: 0 auto;
     margin-top: 28%;
