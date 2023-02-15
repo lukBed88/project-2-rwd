@@ -87,7 +87,7 @@
 
     }
     .section-one-container{
-        justify-content: space-between;
+        justify-content: center;
         height: 106vh;
         /* border: 2px solid red; */
         background-size: 100% 100%;
@@ -149,11 +149,16 @@
         /* border: 2px solid red; */
     }
     .section-two{
-        margin-top: 80px;
+        margin-top: 60px;
         /* border: 2px solid red; */
         width: 85%;
         margin: 80px auto 0 auto;
-        justify-content: space-around;
+        justify-content: center;
         /* background-color: red; */
+    }
+    .section-two__container{
+        flex-basis: 20%;
+        margin: 0 50px;
+        /* border: 2px solid blue; */
     }
 }
