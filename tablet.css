@@ -1,7 +1,6 @@
 @media(min-width:900px){
     .tablet {
         flex-direction: row;
-        /* border: 2px solid green; */
     }
 
     .nav {
@@ -18,12 +17,10 @@
         justify-content: center;
         width: 13%;
         height: 75%;
-        margin-left: 13px;
-        /* border: 2px solid red; */
-    
+        margin-left: 13px;   
     }
     .nav__img-logo { 
-        width: 80%;
+        width: 75%;
         height: 70%;
         align-self: center;
     
@@ -33,7 +30,6 @@
         display: flex;
         margin-right: 45px;
         align-self: center;
-        /* border: 2px solid yellowgreen; */
         font-size: 30px;
         color: white;
     
@@ -57,6 +53,7 @@
     
     .nav__menu-icon:active ~ .nav__container-ul{
         visibility: visible;
+        z-index: 10;
     
     }
     
@@ -72,7 +69,6 @@
         margin: 8px;
         list-style: none;
         color: white;
-        /* border: 2px solid yellowgreen; */
     }
     .nav__li-icon {
         margin-left: 6px;
@@ -88,19 +84,15 @@
         background-image: url(images/banner/banner.png);
         background-size: 100% 85%;
         background-repeat: no-repeat; 
-        /* border: 2px solid black; */
     }
     .section-one-container__part-one-info{
         flex-basis: 55%;
         align-self: center;
         padding-bottom: 200px;
         color: white;
-        
-        /* border: 2px solid red; */
     }
     .section-one-container__part-two-picture{
         flex-basis: 45%;
-        /* z-index: 0; */
     }
     .section-one__title{  
         width: 60%;
@@ -108,7 +100,6 @@
         margin: 10px 0 5px 100px;
         line-height: 40px;
         font-weight: 300;
-        /* border: 2px solid burlywood; */
     }
     .section-one__describe{
         width: 70%;
@@ -116,7 +107,6 @@
         font-size: 18px;
         margin-top: 15px;
         margin-bottom: 15px;
-        /* border: 2px solid black; */
     }
     .section-one__start{
         width: 43%;
@@ -128,10 +118,9 @@
         position: relative;
         width: 83%;
         height: 75%;
-        left: 32%;
+        left: 40%;
         top: 54%;
         transform: translate(-50%,-50%);
-        /* border: 2px solid red; */
         z-index: 0;
     }
 
@@ -140,7 +129,7 @@
         margin:30px 0 0 100px;
         font-size: 16px;
         font-weight: 400;
-        padding: 13px 0;
+        padding: 15px 0;
         background-color: #37EBED;
         border-radius: 5px;
         border: 1px solid transparent;    
@@ -152,12 +141,11 @@
     
     .section-two__title{
         width: 40%;
-        margin: 160px auto 70px auto;
+        margin: 100px auto 70px auto;
         line-height: 42px;
         text-align: center;
         font-size: 32px;
-        font-weight: 300;
-        /* border: 1px solid blue; */
+        font-weight: 200;
     }
     
     .section-two{
@@ -165,10 +153,9 @@
         flex-direction: row;
         flex-wrap: nowrap;
         width: 85%;
-        margin: 0 auto;
+        margin: 0 auto 160px auto;
         justify-content: center;
         color: black;
-        /* border: 2px solid red; */
     }
     
     .section-two__container{
@@ -178,7 +165,6 @@
         justify-content: flex-start;
         align-items: center;
         margin: 10px 0 0x 0;
-        /* border: 1px solid red; */
     }
     .section-two__icon{
         display: flex;
@@ -190,23 +176,18 @@
         margin-top: 15px;
         background-color: #4BA9FD;
         border: 2px solid transparent;
-        /* border: 2px solid blue; */
     }
     .section-two__icon--color-blue{
-        /* background-image: linear-gradient(222deg, rgba(75, 169, 253, 1) 34%, rgba(41, 78, 86, 1) 100%, rgba(89, 131, 252, 1) 99%); */
         background-color:#47a6fc;
     }
     .section-two__icon--color-orange{
-        /* background-color: rgb(255, 165, 0); */
         background-color: #fda55c
     }
     .section-two__icon--color-green{
-        /* background-color: forestgreen */
         background-color: #37ef8d
     }
     
     .section-two__picture-svg{
-        /* font-size: 50px; */
         width: 50%;
         height: 50%;  
         color: white;  
@@ -222,16 +203,12 @@
         width: 60%;
     } 
 
-
-
-   
     .section-three{
         display: flex;
         flex-direction: row;
         width: 90%;
-        margin: 0 auto 140px auto;
+        margin: 0 auto 100px auto;
         margin-top: 10%;
-        /* border: 2px solid red; */
     }
     .section-three__container-one{
         display: flex;
@@ -279,10 +256,6 @@
         height: 58%;
     }
 
-
-
-
-
     .section-four{
         display: flex;
         position: relative;
@@ -292,7 +265,6 @@
         background-size: cover;
         background-repeat: no-repeat;
         opacity: 1;
-    
     }
     
     .section-four::before {
@@ -351,7 +323,6 @@
     
     }
 
-
     .section-five{
         display: flex;
         flex-direction: column;
@@ -360,36 +331,35 @@
     .section-five__title{
         align-self: center;
         font-size: 34px;
-        padding: 20px 0;
+        margin: 20px 0 30px 0;
         font-weight: 300;
     }
     .section-five__describe{
         width: 75%;
         align-self: center;
         text-align: center;
-        padding-bottom: 20px;
+        margin-bottom: 80px;
         font-style: 24px;
         font-weight: 200;
     }
-
-
-
-
-
     .section-six{
         display: flex;
         flex-direction: row;
         width: 90%;
         margin: 0 auto;
-        /* border: 2px solid red; */
+        height: 450px;
     }
     
     .section-six__container{
-        width: 90%;
+        width: 32%;
         margin: 20px auto 0 auto;
-        /* border: 2px solid ; */
-        box-shadow: 4px 5px 12px -8px rgba(66, 68, 90, 1);
+        box-shadow: 0px 0px 49px -21px rgba(66, 68, 90, 1);
         padding-bottom: 25px;
+    }
+    .section-six__container--team{
+        height: 450px;
+        align-self: center;
+        box-shadow: 0px 0px 49px -21px rgba(66, 68, 90, 1);
     }
     
     .section-six__title-container{ 
@@ -397,12 +367,10 @@
         justify-content: space-between;
         margin: 0 0 20px 0;
         padding: 15px 0;
-        /* border: 2px solid red; */
         
     }
     .section-six__title-container--color-1{
         background-color: #e9f4fe;
-        /* background-color: black; */
     }
     .section-six__title-container--color-2{
         background-color: #fef4ee;
@@ -415,20 +383,16 @@
         margin-left: 30px;
         font-size: 20px;
         font-weight:500;
-        /* border: 2px solid hotpink;    */
     }
     .section-six__price{
         margin-right: 30px;
-        font-size: 20px;
-       
+        font-size: 20px;    
         color: blue;
-        /* border: 2px solid red; */
     }
     .section-six_ul{
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* border: 2px solid green; */
     }
     .section-six__li{
         margin: 12px 0;
@@ -450,10 +414,6 @@
         border: 2px solid #4BA9FD;
     }
 
-
-
-
-
     .section-seven{
         display: flex;
         margin-top: 130px;
@@ -463,11 +423,9 @@
     .section-seven__container{
         margin: 0 auto;
         align-self: center;
-        /* border: 2px solid blue; */
     }
     .section-seven__title{
         width: 100%;  
-        /* border: 2px solid orange; */
     }
     .section-seven__describe{
         font-size: 34px;
@@ -475,14 +433,12 @@
         color: white;
         font-weight: 300;
         text-align: left;
-        /* border: 2px solid yellowgreen; */
     }
     .section-seven-icons{
         display: flex;
         width: 80%;
-        margin: 20px auto;
+        margin: 40px auto;
         margin-left: 20%;
-        /* border: 2px solid red; */
 
     }
     .section-seven__container-one{
@@ -490,7 +446,6 @@
         justify-content: center;
         align-self: center;
         width: 40%;
-        /* border: 2px solid black; */
 
     }
     .section-seven__container-two{
@@ -498,45 +453,34 @@
         width: 40%;
         align-self: center;
         justify-content: flex-end;
-        /* border: 4px solid blue; */
-        
+       
     }
     .section-seven__icon-one{
-        width: 95%;
-        /* border: 2px solid orange; */
-        
+        width: 95%;     
     }
     .section-seven__icon-two{
         width:100%;
-        /* border: 2px solid orange; */
 
     }
-
-
 
     .section-eight{
         padding-top: 100px;
         background-color:#1f1f1f;
         padding-bottom: 70px;
-        /* border: 2px solid yellow; */
     }
     .section-eight__container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        /* border: 3px solid yellow; */
     }
     .section-eight__part-one{
         display: flex;
         flex-direction: column;
         flex-basis: 36%;
-        /* border: 2px solid gold; */
     }
     .section-eight__container-logo-part-one{
         display: flex;
-        /* margin-top: 40px; */
-        /* border: 2px solid red; */
     }
     .section-eight__logo-part-one{
         width: 27%;
@@ -549,7 +493,6 @@
         color: #8b898d;
         font-size: 16px;
         font-weight: 400;
-        /* border: 2px solid red; */
     }
     .section-eight__container-icons{
         display: flex;   
@@ -578,7 +521,6 @@
         display: flex;
         flex-basis: 35%;
         flex-direction: column;
-        /* border: 2px solid red; */
     }
     .section-eight__title{
         margin: 0 0 10px 10px;
@@ -586,16 +528,12 @@
         font-weight: 300;
         font-style: 18px;
     }
-    .section-eight__ul{
-        /* border: 2px solid red; */
-    }
     .section-eight__li{
         margin: 20px 0 20px 10px;
         color: #8b898d;
         font-size: 14px;
         list-style: none;
         font-weight: 500;
-        /* border: 1px solid yellowgreen; */
     }
     .section-eight__part-three{
         display: flex;
@@ -611,14 +549,11 @@
         margin-top: 25px;
     }
 
-
-
     .footer{
         display: flex;
         padding: 30px 10px;
         justify-content: center;
         background-color:black;
-        /* border:2px solid yellow */
     }
     .footer__describe{
         width: 98%;
@@ -626,7 +561,6 @@
         font-size: 12px;
         font-weight: 500;
         text-align: center;
-        /* border: 2px solid yellow; */
     }
     .footer__icon{
         color: #8b898d;
